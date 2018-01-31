@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Доставка</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="jquery-2.1.3.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body class="body">
+    <div class="container">
+        <section class="deliveries">
+            <section class="delivery">
+                <div class="delivery-head">
+                    <div class="container-icon"><i class="delivery-head__icon delivery-head__icon_courier not-for-mobile"></i></div>
+                    <h1 class="delivery__title">Курьерская доставка</h1><i class="icon-triangle"></i>
+                </div>
+                <div class="delivery-body" data-open="close">
+                    <p class="delivery__desc nmargin">Доставка курьером производится по удобному для вас адресу и в удобное время. В день доставки представитель курьерской службы свяжется свами потелефону для согласования времени доставки. Курьер выезжает по заказу только после согласования деталей потелефону.</p>
+                    <p class="delivery__desc delivery__desc_small"><span class="fat-litter">Сроки доставки:</span> 1-2 дня</p>
+                    <ul class="red-mark-menu">
+                        <span class="fat-litter">Стоимость доставки</span>
+                        <li class="red-mark-menu__item">Москва</li>
+                        <div class="silver-menu">
+                            <p class="silver-menu__item">в пределах МКАД 300-500 р.</p>
+                            <p class="silver-menu__item">за пределами МКАД и область 1000-1500 р.</p>
+                        </div>
+                        <li class="red-mark-menu__item">Новосибирск 500 р.</li>
+                        <li class="red-mark-menu__item">Благовещенск 150 р.</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="delivery last-of-row">
+                <div class="delivery-head">
+                    <div class="container-icon"><i class="delivery-head__icon delivery-head__icon_pickup not-for-mobile"></i></div>
+                    <h1 class="delivery__title">Самовывоз</h1><i class="icon-triangle"></i>
+                </div>
+                <div class="delivery-body" data-open="close">
+                    <p class="delivery__desc nmargin">Вы сможете забрать ваш заказ в офисах компании «Инви»
+                        с момента его готовности к выдаче. При необходимости заказ можно оплатить при получении наличными или пластиковой картой. </p>
+                    <p class="delivery__desc delivery__desc_small"><span class="fat-litter">Сроки доставки:</span> 2 рабочих числа</p><span class="small-litter">(при условии наличия товара на складе данного филиала)</span>
+                    <ul class="red-mark-menu">
+                        <span class="fat-litter">Время выдачи заказов и адреса пунктов самовывоза:</span>
+                        <li class="red-mark-menu__item">Москва</li>
+                        <li class="red-mark-menu__item">Новосибирск</li>
+                        <li class="red-mark-menu__item">Благовещенск</li>
+                    </ul>
+                    <a class="silver-button" href="#">Адреса пунктов выдачи</a>
+                </div>
+            </section>
+            <section class="delivery delivery_middle">
+                <div class="delivery-head">
+                    <div class="container-icon"><i class="delivery-head__icon delivery-head__icon_boxberry not-for-mobile"></i></div>
+                    <h1 class="delivery__title">Пункт выдачи boxberry</h1><i class="icon-triangle"></i>
+                </div>
+                <div class="delivery-body" data-open="close">
+                    <p class="delivery__desc nmargin">Ваш заказ будет доставлен в выбранный вами пункт выдачи заказов Boxberry. </p>
+                    <p class="delivery__desc">В день поступления заказа вы получите sms-оповещение с номером вашего заказа, суммой к оплате и контактными данными о пункте выдачи заказа. При необходимости заказ можно оплатить наличными или пластиковой картой. </p>
+                    <p class="delivery__desc">Найти ближайший пункт выдачи Boxberry вы сможете на странице оформления заказа. </p>
+                    <p class="delivery__desc">Данный способ выдачи заказов доступен в Москве и Новосибирске.</p>
+                </div>
+            </section>
+            <section class="delivery last-of-row delivery_middle">
+                <div class="delivery-head">
+                    <div class="container-icon"><i class="delivery-head__icon delivery-head__icon_companies not-for-mobile"></i></div>
+                    <h1 class="delivery__title">Транспортные компании</h1><i class="icon-triangle"></i>
+                </div>
+                <div class="delivery-body" data-open="close">
+                    <p class="delivery__desc nmargin">Доставка заказов для наших клиентов по России, в большинстве случаев, выполняется следующими транспортными компаниями:</p>
+                    <div class="companies">
+                        <div class="company"><div class="company__logo company__logo_pek"></div>ТК «ПЭК»</div>
+                        <div class="company last-of-row"><div class="company__logo company__logo_lines"></div>ТК «Деловые линии»</div>
+                        <div class="company nmbottom"><div class="company__logo company__logo_energy"></div>ТК «Энергия»</div>
+                        <div class="company last-of-row nmbottom"><div class="company__logo company__logo_altan"></div>ТК Алтан</div>
+                    </div>
+                    <p class="delivery__desc">При оформлении заказа вы можете указать альтернативный вариант транспортной компании, и мы отправим ваш заказ через данных перевозчиков.</p>
+                </div>
+            </section>
+            <section class="delivery delivery_small">
+                <div class="delivery-head">
+                    <div class="container-icon"><i class="delivery-head__icon delivery-head__icon_ems not-for-mobile"></i></div>
+                    <h1 class="delivery__title">EMS Почта России<br/> (экспресс-доставка)</h1><i class="icon-triangle"></i>
+                </div>
+                <div class="delivery-body" data-open="close">
+                    <p class="delivery__desc nmargin">Пересылка экспресс-отправлений осуществляется по принципу «от двери до двери». </p>
+                    <p class="delivery__desc">Отправления принимаются в офисе отправителя, перевозятся до пункта назначения, где вручаются адресату, либо, при доставке в адреса организаций — уполномоченному представителю организации по доверенности. </p>
+                    <p class="delivery__desc">Сроки и стоимость доставки система рассчитывает автоматически на странице оформления заказа</p>
+                </div>
+            </section>
+            <section class="delivery last-of-row delivery_small">
+                <div class="delivery-head">
+                    <div class="container-icon"><i class="delivery-head__icon delivery-head__icon_rf not-for-mobile"></i></div>
+                    <h1 class="delivery__title">Почта России</h1><i class="icon-triangle"></i>
+                </div>
+                <div class="delivery-body" data-open="close">
+                    <p class="delivery__desc nmargin">Доставка осуществляется Почтой России в любой населенный пункт России. </p>
+                    <p class="delivery__desc">При оформлении заказа вы получаете идентификатор, по которому сможете отслеживать посылку на <a class="red-link" href="https://www.pochta.ru/" rel="nofollow" title="Почта России" target="_blank">сайте «Почты России»</a>.</p>
+                    <p class="delivery__desc">При доставке заказов Почтой России возможна оплата при получении в отделении связи. Сроки и стоимость доставки система рассчитывает автоматически на странице оформления заказа.</p>
+                </div>
+            </section>
+            <section class="delivery-information">
+                <i class="info-icon"></i>
+                <span class="small-line not-for-mobile"></span>
+                <p class="delivery-information__paragraph">Заказы до 1000 рублей не формируются для доставки,их можно забрать только самовывозом из <span class="fat-litter fat-litter_400">Москвы</span>, <span class="fat-litter fat-litter_400">Благовещенска</span> или <span class="fat-litter fat-litter_400">Новосибирска.</span></p>
+                <span class="small-line"></span>
+                <p class="delivery-information__paragraph delivery-information__paragraph_small">Заказы от 25 000 рублей доставляются <span class="fat-litter fat-litter_400">бесплатно.</span></p>
+                <p class="small-litter">* не распространяется для дистрибьюторов.</p>
+            </section>
+            <section class="delivery-questions">
+               <div class="group">
+                   <h1 class="delivery-questions__title">Есть вопросы по доставке в ваш город?</h1>
+                   <p class="delivery-questions__desc">Задайте их прямо сейчас</p>
+               </div>
+                <form class="questions-form">
+                    <input type="text" placeholder="Контактный телефон" class="questions-form__input">
+                    <button class="questions-form__button">Заказать звонок</button>
+                </form>
+                <div class="group group_process">
+                    <input class="personal-check" type="checkbox" checked><span class="personal-check__indicator"></span>
+                    <p class="personal-process">Я согласен на обработку <a href="#" class="personal-process__link">персональных данных</a></p>
+                </div>
+            </section>
+        </section>
+
+        <section class="payments">
+            <section class="tabs">
+                <div class="menu-hamburger for-mobile">
+                    <i class="hamburger"></i>
+                </div>
+                <div class="tab tab_active" data-tab="nal">
+                    <i class="not-table tab__element tab__element_ico tab__element_ico-nal"></i>
+                    <p class="tab__element tab__element_text" >Наличный расчет</p>
+                </div>
+                <div class="tab" data-tab="card">
+                    <i class="not-table tab__element tab__element_ico tab__element_ico-card"></i>
+                    <p class="tab__element tab__element_text">Банковская карта</p>
+                </div>
+                <div class="tab" data-tab="bnal">
+                    <i class="not-table tab__element tab__element_ico tab__element_ico-bnal"></i>
+                    <p class="tab__element tab__element_text">Безналичная оплата</p>
+                </div>
+                <div class="tab last-of-row" data-tab="imposed">
+                    <i class="not-table tab__element tab__element_ico tab__element_ico-imposed"></i>
+                    <p class="tab__element tab__element_text">Наложенный платеж</p>
+                </div>
+            </section>
+            <div class="payment" id="nal">
+                <div class="container-icon"><i class="payment-icon payment-icon_nal"></i></div>
+                <div class="group">
+                    <h1 class="payment__title">Наличный расчет</h1>
+                    <p class="payment__desc">Оплата наличными возможна при отправке заказов Почтой России с наложенным платежом, выдаче в постаматах Boxberryили при самовывозе в офисах компании Инви, расположенных в городах:</p>
+                    <ul class="red-mark-menu">
+                        <li class="red-mark-menu__item">Москва</li>
+                        <li class="red-mark-menu__item">Новосибирск</li>
+                        <li class="red-mark-menu__item">Благовещенск</li>
+                    </ul>
+                    <a class="silver-button" href="#">Адреса пунктов выдачи</a>
+                </div>
+            </div>
+            <div class="payment" id="card">
+                <div class="container-icon"><i class="payment-icon payment-icon_card"></i></div>
+                <div class="group">
+                    <h1 class="payment__title">Банковская карта</h1>
+                    <p class="payment__desc">Вы можете оплатить заказ на сайте или через терминал в одном из наших пунктов самовывоза.
+                        <br/>Мы принимаем карты:</p>
+                    <ul class="red-mark-menu red-mark-menu_dark">
+                        <li class="red-mark-menu__item">Visa</li>
+                        <li class="red-mark-menu__item">MasterCard</li>
+                        <li class="red-mark-menu__item">МИР.</li>
+                    </ul>
+                    <p class="payment__desc">Для оплаты заказов на сайте используется платежная система ПАО Сбербанк, которая обеспечивает технологию безопасного проведения интернет-платежей. При оплате заказа комиссия не взимается, не зависимо от того каким банком выпущена ваша карта. Потом мелкий текст серым, который требует размещать Сбербанк для подключения своего эквайринга.</p>
+                </div>
+            </div>
+            <div class="payment" id="bnal">
+                <div class="container-icon"><i class="payment-icon payment-icon_bnal"></i></div>
+                <div class="group">
+                    <h1 class="payment__title">Безналичный расчет</h1>
+                    <p class="payment__desc">Для юридических лиц доступна возможность безналичной оплаты заказа. После оформления заказа менеджер подготовит и отправит счет на оплату через банк. Возможна оплата с учетом НДС.</p>
+                </div>
+            </div>
+            <div class="payment" id="imposed">
+                <div class="container-icon"><i class="payment-icon payment-icon_imposed"></i></div>
+                <div class="group">
+                    <h1 class="payment__title">Наложенный платеж</h1>
+                    <p class="payment__desc">Вы оплачиваете заказ при получении в отделении Почты России.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
